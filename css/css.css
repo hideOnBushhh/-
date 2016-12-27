@@ -1,0 +1,401 @@
+a,
+button,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+li {
+  list-style: none;
+}
+body * {
+  -webkit-user-select: none;
+  font-family: helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+}
+.clear:after {
+  content: '';
+  zoom: 1;
+  display: block;
+  clear: both;
+}
+#wrap {
+  width: 100%;
+  height: 1000px;
+  background-color: #6ea7b2;
+}
+#wrap #box {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  margin-left: -600px;
+  width: 1200px;
+  height: 711px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: white;
+}
+#wrap #box #tipBox #tipTop {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: -40px;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+}
+#wrap #box #tipBox #tipTop i {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/123.png");
+}
+#wrap #box #tipBox .warning {
+  background-color: orange;
+}
+#wrap #box #tipBox .warning i {
+  background-position: -28px -173px;
+}
+#wrap #box #tipBox .success {
+  background-color: green;
+}
+#wrap #box #tipBox .success i {
+  background-position: 0px -173px;
+}
+#wrap #box #tipBox #confirmWin {
+  width: 320px;
+  height: 180px;
+  background-color: white;
+  top: 50%;
+  margin-left: -160px;
+  left: 50%;
+  margin-top: -90px;
+  position: absolute;
+  border: 2px solid #56acdd;
+  border-radius: 8px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinX {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('../img/123.png');
+  background-position: -62px 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinText {
+  width: 320px;
+  height: 40px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinText #confirmWinImg {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/123.png');
+  background-position: -22px 0;
+}
+#wrap #box #tipBox #confirmWin #confirmWinText #confirmWinText2 {
+  display: block;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  margin-left: 36px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinText #confirmWinText1 {
+  font-family: '微软雅黑';
+  font-size: 16px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinBtns {
+  position: absolute;
+  top: 119px;
+  left: 0;
+  width: 320px;
+  height: 30px;
+  text-align: center;
+}
+#wrap #box #tipBox #confirmWin #confirmWinBtns #confirmWinCon:hover {
+  background-color: #56acdd;
+}
+#wrap #box #tipBox #confirmWin #confirmWinBtns #confirmWinCancel:hover {
+  background-color: #56acdd;
+}
+#wrap #box #tipBox #confirmWin #confirmWinBtns #confirmWinCon {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #56acdd;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+}
+#wrap #box #tipBox #confirmWin #confirmWinBtns #confirmWinCancel {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #56acdd;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 30px;
+}
+#wrap #box #header {
+  width: 1160px;
+  height: 70px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+#wrap #box #header #logo {
+  float: left;
+  color: #50acdd;
+  font-size: 18px;
+  line-height: 70px;
+}
+#wrap #box #header #logo img {
+  float: left;
+  margin-top: 15px;
+}
+#wrap #box #header #logo span {
+  float: left;
+  margin: -5px auto auto 10px;
+  font-family: "微软雅黑";
+}
+#wrap #box #funcArea {
+  height: 60px;
+  width: 100%;
+  background-color: #ecf1f7;
+}
+#wrap #box #funcArea ul {
+  width: 1160px;
+  margin: 0 auto;
+  height: 58px;
+  padding: 0;
+}
+#wrap #box #funcArea ul li {
+  float: left;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-right: 11px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #909ba2;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #d1d9db;
+  box-sizing: border-box;
+  background-color: white;
+}
+#wrap #box #funcArea ul li span {
+  display: inline-block;
+  font-family: "微软雅黑";
+  margin: 0 auto auto 16px;
+}
+#wrap #box #funcArea ul div {
+  float: right;
+  background-color: white;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-left: 11px;
+  height: 38px;
+  line-height: 38px;
+  color: #909ba2;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #d1d9db;
+  box-sizing: border-box;
+}
+#wrap #box #funcArea ul div p {
+  height: 38px;
+  margin: 0;
+}
+#wrap #box #docArea {
+  width: 100%;
+  height: 581px;
+  background-color: #fff;
+}
+#wrap #box #docArea #leftArea {
+  float: left;
+  margin-left: 20px;
+  width: 260px;
+  height: 580px;
+  border: 1px solid #e1e8ee;
+  box-sizing: border-box;
+  border-left-color: white;
+  background-color: white;
+}
+#wrap #box #docArea #leftArea span {
+  margin-left: 5px;
+  height: 33px;
+  line-height: 33px;
+}
+#wrap #box #docArea ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#wrap #box #docArea ul li {
+  width: 258px;
+  background-color: white;
+}
+#wrap #box #docArea ul li div {
+  width: 258px;
+  height: 33px;
+}
+#wrap #box #docArea ul li div span {
+  display: block;
+  height: 33px;
+  width: 258px;
+  line-height: 33px;
+}
+#wrap #box #docArea ul li div:hover {
+  background-color: #e1e8ee;
+}
+#wrap #box #rightArea {
+  float: left;
+  width: 900px;
+  height: 580px;
+  border: 1px solid #e1e8ee;
+  box-sizing: border-box;
+  background-color: white;
+  border-right-color: white;
+  position: relative;
+}
+#wrap #box #rightArea #pathArea {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #e2e7ea;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#wrap #box #rightArea #pathArea input {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 15px 0 0 15px;
+}
+#wrap #box #rightArea #pathArea #checkAll {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  float: left;
+}
+#wrap #box #rightArea #pathArea #checkAll.checked {
+  background-color: black;
+}
+#wrap #box #rightArea #pathArea div {
+  width: 845px;
+  float: right;
+}
+#wrap #box #rightArea #pathArea div span {
+  float: left;
+  margin-left: 15px;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+}
+#wrap #box #rightArea #pathArea div strong {
+  float: left;
+  margin-left: 15px;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+}
+#wrap #box #rightArea #docInnerarea {
+  background-color: #f6f7fb;
+  height: 531px;
+  width: 899px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  overflow: auto;
+}
+#wrap #box #rightArea #docInnerarea div:hover {
+  border-color: #53aedb;
+}
+#wrap #box #rightArea #docInnerarea .selected {
+  border-color: #53aedb;
+}
+#wrap #box #rightArea #docInnerarea div {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  float: left;
+  position: relative;
+  width: 178px;
+  height: 178px;
+  border-radius: 4px;
+  margin-left: 41px;
+  margin-top: 41px;
+  background-color: white;
+}
+#wrap #box #rightArea #docInnerarea div em {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1px;
+  top: 1px;
+  margin: 0;
+  background-image: url("../img/123.png");
+  background-position: 0 -153px;
+}
+#wrap #box #rightArea #docInnerarea div .docChecked {
+  background-image: url("../img/123.png");
+  background-position: 0 -115px;
+}
+#wrap #box #rightArea #docInnerarea div i {
+  display: block;
+  position: absolute;
+  background-image: url("../img/123.png");
+  width: 80px;
+  height: 72px;
+  background-position: 0 -40px;
+  left: 50px;
+  top: 35px;
+}
+#wrap #box #rightArea #docInnerarea div .docText {
+  display: none;
+}
+#wrap #box #rightArea #docInnerarea div span {
+  position: absolute;
+  width: 178px;
+  word-break: break-all;
+  left: 0;
+  top: 130px;
+  text-align: center;
+  font-size: 13px;
+}
+#wrap #box #rightArea #docInnerarea div input {
+  position: absolute;
+  left: 0;
+  width: 173px;
+  top: 130px;
+  font-size: 13px;
+  text-align: center;
+}
+#wrap #box #rightArea #docInnerarea.empt {
+  background-image: url("../img/backEmpty.png");
+  background-position: 0 -150px;
+}
+#mask ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#mask div {
+  width: 500px;
+}

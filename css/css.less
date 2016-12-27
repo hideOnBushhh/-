@@ -1,0 +1,473 @@
+a,
+button,
+input {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    margin: 0;
+    -webkit-user-select: none;
+}
+
+li {
+    list-style: none;
+}
+
+body * {
+    -webkit-user-select: none;
+    font-family: helvetica;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+}
+
+body {}
+
+.clear:after {
+    content: '';
+    zoom: 1;
+    display: block;
+    clear: both;
+}
+
+#wrap {
+    width: 100%;
+    height: 1000px;
+    background-color: #6ea7b2;
+
+    #box {
+        position: absolute;
+        left: 50%;
+        top: 120px;
+        margin-left: -600px;
+        width: 1200px;
+        height: 711px;
+        border-radius: 14px;
+        overflow: hidden;
+        background-color: white;
+
+        #tipBox {
+            #tipTop {
+                position: absolute;
+                left: 50%;
+                margin-left: -150px;
+                top: -40px;
+                width: 300px;
+                height: 40px;
+                border-radius: 20px;
+                color: white;
+                font-family: "微软雅黑";
+                font-size: 15px;
+                line-height: 40px;
+                text-align: center; //              background-color: black;
+
+                i {
+                    position: absolute;
+                    left: 10px;
+                    top: 8px;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url("../img/123.png");
+                }
+            }
+
+            .warning {
+                background-color: orange;
+
+                i {
+                    background-position: -28px -173px;
+                }
+            }
+
+            .success {
+                background-color: green;
+
+                i {
+                    background-position: 0px -173px;
+                }
+            }
+
+            #confirmWin {
+                width: 320px;
+                height: 180px;
+                //   display: none;
+                background-color: white;
+                top: 50%;
+                margin-left: -160px;
+                left: 50%;
+                margin-top: -90px;
+                position: absolute;
+                border: 2px solid #56acdd;
+                border-radius: 8px;
+                #confirmWinX{
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    background-image: url('../img/123.png');
+                    background-position: -62px 0;
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                }
+                #confirmWinText{
+                    width: 320px;
+                    height: 40px;
+
+                    #confirmWinImg {
+                        display: inline-block;
+                        width: 36px;
+                        height: 36px;
+                        background-image: url('../img/123.png');
+                        background-position: -22px 0;
+                    }
+                    #confirmWinText2{
+                        display: block;
+                        font-family: '微软雅黑';
+                        font-size: 12px;
+                        margin-left: 36px;
+                    }
+                    #confirmWinText1{
+                        font-family: '微软雅黑';
+                        font-size: 16px;
+                        // display: block;
+                    }
+                }
+                #confirmWinBtns{
+                    position: absolute;
+                    top: 119px;
+                    left: 0;
+                    width: 320px;
+                    height: 30px;
+                    text-align: center;
+                    #confirmWinCon:hover{
+                        background-color: #56acdd;
+                    }
+                    #confirmWinCancel:hover{
+                        background-color: #56acdd;
+                    }
+                    #confirmWinCon{
+                        display: inline-block;
+                        width: 80px;
+                        height: 30px;
+                        border: 1px solid #56acdd;
+                        border-radius: 2px;
+                        text-align: center;
+                        line-height: 30px;
+
+                    }
+                    #confirmWinCancel{
+                        display: inline-block;
+                        width: 80px;
+                        height: 30px;
+                        border: 1px solid #56acdd;
+                        border-radius: 2px;
+                        text-align: center;
+                        line-height: 30px;
+                        margin-left: 30px;
+
+                    }
+                }
+            }
+        }
+
+        #header {
+            width: 1160px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: #ffffff;
+
+            #logo {
+                float: left;
+                color: #50acdd;
+                font-size: 18px;
+                line-height: 70px;
+
+                img {
+                    float: left;
+                    margin-top: 15px;
+                }
+
+                span {
+                    //  display: block;
+                    float: left;
+                    margin: -5px auto auto 10px;
+                    font-family: "微软雅黑";
+                }
+            }
+
+            #user {}
+
+            #setting {}
+        }
+
+        #funcArea {
+            height: 60px;
+            width: 100%;
+            background-color: #ecf1f7;
+
+            ul {
+                width: 1160px;
+                margin: 0 auto;
+                height: 58px;
+                padding: 0;
+
+                li {
+                    float: left; //                  width: 110px;
+                    padding: 0 25px;
+                    margin-top: 10px;
+                    margin-right: 11px;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 16px;
+                    color: #909ba2; //                  font-family: "微软雅黑";
+                    text-align: center;
+                    border-radius: 4px;
+                    border: 1px solid #d1d9db;
+                    box-sizing: border-box;
+                    background-color: white;
+
+                    span {
+                        display: inline-block;
+                        font-family: "微软雅黑";
+                        margin: 0 auto auto 16px;
+                    }
+                }
+
+                div {
+                    float: right; //
+                    background-color: white; //                  width: 110px;
+                    padding: 0 10px;
+                    margin-top: 10px;
+                    margin-left: 11px;
+                    height: 38px;
+                    line-height: 38px;
+                    color: #909ba2; //                  font-family: "微软雅黑";
+                    text-align: center;
+                    border-radius: 4px;
+                    border: 1px solid #d1d9db;
+                    box-sizing: border-box;
+
+                    p {
+                        height: 38px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        #docArea {
+            width: 100%;
+            height: 581px; //          border: 1px solid red;
+            //          box-sizing: border-box;
+            background-color: #fff;
+
+            #leftArea {
+                float: left;
+                margin-left: 20px;
+                width: 260px;
+                height: 580px;
+                border: 1px solid #e1e8ee;
+                box-sizing: border-box;
+                border-left-color: white;
+                background-color: white;
+
+                span {
+                    margin-left: 5px;
+                    height: 33px;
+                    line-height: 33px;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+
+                li {
+                    width: 258px;
+                    background-color: white;
+
+                    div {
+                        width: 258px;
+                        height: 33px;
+
+                        span {
+                            display: block;
+                            //                          margin-left: 5px;
+                            height: 33px;
+                            width: 258px;
+                            line-height: 33px;
+                        }
+                    }
+
+                    div:hover {
+                        background-color: #e1e8ee;
+                    }
+                }
+            }
+        }
+
+        #rightArea {
+            float: left; //              margin-right: 20px;
+            width: 900px;
+            height: 580px;
+            border: 1px solid #e1e8ee;
+            box-sizing: border-box;
+            background-color: white;
+            border-right-color: white;
+            position: relative;
+
+            #pathArea {
+                width: 100%;
+                height: 50px; //
+                //                  background-color: green;
+                border-bottom: 1px solid #e2e7ea;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 1;
+
+                input {
+                    float: left;
+                    width: 20px;
+                    height: 20px;
+                    margin: 15px 0 0 15px;
+                }
+
+                #checkAll {
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    float: left;
+                }
+
+                #checkAll.checked {
+                    background-color: black;
+                }
+
+                div {
+                    width: 845px;
+                    float: right; //                      background-color: red;
+
+                    span {
+                        float: left;
+                        margin-left: 15px;
+                        font-family: "微软雅黑";
+                        font-size: 15px;
+                        height: 50px;
+                        line-height: 50px;
+                    }
+
+                    strong {
+                        float: left;
+                        margin-left: 15px;
+                        font-family: "微软雅黑";
+                        font-size: 15px;
+                        height: 50px;
+                        line-height: 50px;
+                    }
+                }
+            }
+
+            #docInnerarea {
+                background-color: #f6f7fb;
+                height: 531px;
+                width: 899px;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                overflow: auto;
+
+                div:hover {
+                    border-color: #53aedb;
+                }
+
+                .selected {
+                    border-color: #53aedb;
+                }
+
+                div {
+                    box-sizing: border-box;
+                    border: 1px solid #fff;
+                    float: left;
+                    position: relative;
+                    width: 178px;
+                    height: 178px;
+                    border-radius: 4px;
+                    margin-left: 41px;
+                    margin-top: 41px;
+                    background-color: white;
+
+                    em {
+                        position: absolute;
+                        width: 16px;
+                        height: 16px;
+                        left: 1px;
+                        top: 1px;
+                        margin: 0;
+                        background-image: url("../img/123.png");
+                        background-position: 0 -153px;
+                    }
+
+                    .docChecked {
+                        background-image: url("../img/123.png");
+                        background-position: 0 -115px;
+                    }
+
+                    i {
+                        display: block;
+                        position: absolute;
+                        background-image: url("../img/123.png");
+                        width: 80px;
+                        height: 72px;
+                        background-position: 0 -40px;
+                        left: 50px;
+                        top: 35px;
+                    }
+
+                    .docText {
+                        display: none;
+                    }
+
+                    span {
+                        position: absolute;
+                        width: 178px;
+                        word-break: break-all;
+                        left: 0;
+                        top: 130px;
+                        text-align: center;
+                        font-size: 13px;
+                    }
+
+                    input {
+                        position: absolute;
+                        left: 0;
+                        width: 173px;
+                        top: 130px;
+                        font-size: 13px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            #docInnerarea.empt {
+                background-image: url("../img/backEmpty.png");
+                background-position: 0 -150px;
+            }
+        }
+    }
+}
+#mask{
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    div{
+        width: 500px;
+
+    }
+}

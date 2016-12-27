@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*div {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				border: 1px solid black;
+			}*/
+		</style>
+	</head>
+
+	<body>
+		<div id="a">
+			123
+		</div>
+
+		<!-- <script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/dataFn.js"></script>
+		<script type="text/javascript" src="js/tools.js"></script> -->
+
+		<script type="text/javascript">
+		var a = document.getElementById('a');
+			a.style = {
+				backgroundColor:'red'
+			}
+
+			var abc = 10;
+
+			function fn() {
+				var a = abc;
+                 alert(a)
+			}
+
+			document.onclick = function () {
+				abc = 100;
+				fn();
+			}
+		</script>
+
+	</body>
+
+</html>
